@@ -1,0 +1,18 @@
+PROGRAM TO CALCULATE A RUNNING SUM
+
+start
+declare variables a, sum = 0
+
+loop
+declare variable i=1
+for i > 0, i++
+input a
+
+loop
+while a > 0
+sum = sum + a
+print sum
+
+end for loop
+
+stop

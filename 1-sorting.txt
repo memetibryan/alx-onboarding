@@ -1,0 +1,28 @@
+PROGRAM TO SORT 3 INPUT NUMBERS
+
+start
+input a, b, c, d, count
+
+loop
+declare variable i=0
+for i < count, i++
+
+declare variable j = i + 1
+for j < d, j++
+
+if count[i] > count[j]
+a = count[i]
+count[i] = count[j]
+count[j] = a
+end if
+
+end for
+end for
+
+print
+loop
+for i = 0, i < d, i++
+output count[i]
+end loop
+
+

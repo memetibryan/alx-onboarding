@@ -1,0 +1,8 @@
+CALCULATE THE SUM OF SQUARES OF GIVEN INPUT OF NUMBERS
+
+start
+input number a, number b
+square a and square b
+add = square a + square b
+print add
+stop
